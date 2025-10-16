@@ -1,0 +1,42 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics"
+    },
+    {
+      "id": 2,
+      "name": "Home"
+    },
+    {
+      "id": 3,
+      "name": "Books"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Wireless Headphones",
+      "category": "Electronics",
+      "price": 1999,
+      "stock": 10,
+      "description": "Bluetooth over-ear headphones."
+    },
+    {
+      "id": 2,
+      "title": "Smart Lamp",
+      "category": "Home",
+      "price": 899,
+      "stock": 0,
+      "description": "WiFi enabled lamp with app control."
+    },
+    {
+      "id": 3,
+      "title": "Learn React Book",
+      "category": "Books",
+      "price": 499,
+      "stock": 5,
+      "description": "Comprehensive guide to React."
+    }
+  ]
+}
