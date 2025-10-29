@@ -31,6 +31,7 @@ export default function App() {
           {user ? (
             <>
               <Link to="/dashboard">Dashboard</Link>
+              <Link to="/admin">Admin</Link>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                 {user.photoURL && <img src={user.photoURL} alt={user.name} style={{ width: '30px', borderRadius: '50%' }} />}
                 <span>{user.name}</span>
